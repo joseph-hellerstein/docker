@@ -1,0 +1,6 @@
+# This is a sample
+FROM python
+MAINTAINER joseph.hellerstein@gmail.com
+
+RUN pip install pandas
+CMD ["echo","Image created"]
